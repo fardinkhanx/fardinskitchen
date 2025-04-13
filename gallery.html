@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fardin's Kitchen | Gallery</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #b3001b;
+      padding: 15px;
+      text-align: center;
+      color: white;
+      font-family: 'Dancing Script', cursive;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #b3001b;
+      font-family: 'Dancing Script', cursive;
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fardin's Kitchen</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Delicious Dishes</h2>
+    <div class="gallery">
+      <img src="Kacchi Biryani.jpeg" alt="Kacchi Biryani">
+      <img src="Beef Tehari.jpeg" alt="Beef Tehari">
+      <img src="Mutton Rezala.jpeg" alt="Mutton Rezala">
+      <img src="Shorshe Ilish.jpeg" alt="Shorshe Ilish">
+      <img src="Chicken Roast.jpeg" alt="Chicken Roast">
+      <img src="Firni.jpeg" alt="Firni">
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fardin’s Kitchen. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
